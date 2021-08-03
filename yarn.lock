@@ -1767,10 +1767,15 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
-"@react-leaflet/core@1.0.2", "@react-leaflet/core@>=1.0.0 <1.1.0 || ^1.1.1", "@react-leaflet/core@^1.0.2":
+"@react-leaflet/core@1.0.2", "@react-leaflet/core@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-1.0.2.tgz#39c6a73f61c666d5dcf673741cea2672fa4bbae1"
   integrity sha512-QbleYZTMcgujAEyWGki8Lx6cXQqWkNtQlqf5c7NImlIp8bKW66bFpez/6EVatW7+p9WKBOEOVci/9W7WW70EZg==
+
+"@react-leaflet/core@>=1.0.0 <1.2.0 || ^1.1.1":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-1.1.0.tgz#389b2b373f1da4caeb3c4cf6f33d84561c58d504"
+  integrity sha512-zFxMHgfjCi7khRVB7o7H8NoJl36NaezvfcaeEurVXx22lAGHFlTHiSuLOGA4tOiHj+Ep+Lo3uwUGJ3YM9BGkHg==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.0"
