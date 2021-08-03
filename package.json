@@ -10,7 +10,8 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "husky": {
     "hooks": {
@@ -40,6 +41,10 @@
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-typescript": "^7.14.5",
+    "@graphql-codegen/add": "^3.0.0",
+    "@graphql-codegen/cli": "2.0.1",
+    "@graphql-codegen/typescript": "2.0.0",
+    "@graphql-codegen/typescript-operations": "2.0.1",
     "@react-leaflet/core": ">=1.0.0 <1.1.0 || ^1.1.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^12.0.0",
